@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './Home.css'
 import Navbar from '../Layout/Navbar'
 import Footer from '../Layout/Footer'
+import heroImage from '../assets/img/hero.png';
 
 function Home() {
 
@@ -24,7 +25,7 @@ function Home() {
         </div>
         <div className="col-12 col-lg-6 mx-auto">
           <div className="text-center position-relative">
-          <img className="img-fluid" src={require('../assets/img/hero.webp').default} style={{ width: 800 }} alt="Hero" />
+          <img className="img-fluid" src={heroImage} style={{ width: 800 }} alt="Hero" />
           </div>
         </div>
       </div>
@@ -90,7 +91,14 @@ function Home() {
           </div>
         </div>
         <div className="col-md-6 order-first order-md-last">
-          <div><img className="rounded img-fluid w-100 fit-cover" style={{minHeight: 300}} src={require("../assets/img/illustrations/teamwork.svg").default} /></div>
+        <div>
+          <img
+            className="rounded img-fluid w-100 fit-cover"
+            style={{ minHeight: 300 }}
+            src={require("../assets/img/illustrations/teamwork.svg").default}
+            alt="Teamwork"
+          />
+        </div>
         </div>
       </div>
     </div>
@@ -99,7 +107,15 @@ function Home() {
     <div className="container-md py-4 py-xl-5" id='video'>
       <div className="row gy-4 gy-md-0">
         <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-          <div><img className="rounded img-fluid fit-cover" style={{minHeight: 300}} src={require("../assets/img/illustrations/presentation.svg").default} width={800} /></div>
+        <div>
+          <img
+            className="rounded img-fluid fit-cover"
+            style={{ minHeight: 300 }}
+            src={require("../assets/img/illustrations/presentation.svg").default}
+            width={800}
+            alt="Presentation"
+          />
+        </div>
         </div>
         <div className="col">
           <div style={{maxWidth: 560}}>

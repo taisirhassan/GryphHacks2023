@@ -1,12 +1,13 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link';
+import logoImage from '../assets/img/logo.webp';
 
 const Navbar = () => {
   return (
    <>
     <nav className="navbar navbar-light navbar-expand-md fixed-top navbar-shrink py-4" id="mainNav">
     <div className="container-md"><a className="navbar-brand d-flex align-items-center" href="/">
-    <img className='image-fluid' src='./src/assets/img/logo.webp' />
+    <img className='image-fluid' src={logoImage} />
     </a>
     <button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navcol-1">
     <span className="visually-hidden">Toggle navigation</span><span className="navbar-toggler-icon" /></button>

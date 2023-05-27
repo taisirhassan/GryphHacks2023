@@ -1,4 +1,5 @@
 import React from 'react'
+import logoImage from '../assets/img/logo.webp';
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className="row row-cols-2 row-cols-md-4">
         <div className="col-12 col-md-3">
           <div className="fw-bold d-flex align-items-center mb-2">
-    <img className='image-fluid' src='./src/assets/img/logo.webp' />
+    <img className='image-fluid' src={logoImage} />
           </div>
           <p className="text-muted">we are passionate about making information more accessible and empowering individuals to discover knowledge effortlessly. </p>
         </div>
