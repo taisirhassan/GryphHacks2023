@@ -24,7 +24,7 @@ function Home() {
         </div>
         <div className="col-12 col-lg-6 mx-auto">
           <div className="text-center position-relative">
-          <img className="img-fluid" src="./src/assets/img/hero.webp" style={{width: 800}} />
+          <img className="img-fluid" src={require('../assets/img/hero.webp').default} style={{ width: 800 }} alt="Hero" />
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ function Home() {
           </div>
         </div>
         <div className="col-md-6 order-first order-md-last">
-          <div><img className="rounded img-fluid w-100 fit-cover" style={{minHeight: 300}} src="./src/assets/img/illustrations/teamwork.svg" /></div>
+          <div><img className="rounded img-fluid w-100 fit-cover" style={{minHeight: 300}} src={require("../assets/img/illustrations/teamwork.svg").default} /></div>
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ function Home() {
     <div className="container-md py-4 py-xl-5" id='video'>
       <div className="row gy-4 gy-md-0">
         <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-          <div><img className="rounded img-fluid fit-cover" style={{minHeight: 300}} src="./src/assets/img/illustrations/presentation.svg" width={800} /></div>
+          <div><img className="rounded img-fluid fit-cover" style={{minHeight: 300}} src={require("../assets/img/illustrations/presentation.svg").default} width={800} /></div>
         </div>
         <div className="col">
           <div style={{maxWidth: 560}}>
@@ -143,7 +143,7 @@ function Home() {
               <div className="my-3"><a className="btn btn-warning me-2 mt-2" role="button" href="#">Get Started Now</a></div>
             </div>
           </div>
-          <div className="col-md-6 order-first order-md-last" style={{minHeight: 250}}><img className="w-100 h-100 fit-contain pt-5 pt-md-0" src="./src/assets/img/illustrations/web-development.svg" /></div>
+          <div className="col-md-6 order-first order-md-last" style={{minHeight: 250}}><img className="w-100 h-100 fit-contain pt-5 pt-md-0" src={require("../assets/img/illustrations/web-development.svg").default} /></div>
         </div>
       </div>
     </div>
