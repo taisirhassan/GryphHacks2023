@@ -1,9 +1,11 @@
 import React from 'react';
 import './Chatbox.css';
-
+import Navbar from "../Layout/Navbar";
+import Footer from "../Layout/Footer";
 function Chatbox() {
   return (
     <>
+      <Navbar />
 
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
@@ -89,6 +91,7 @@ function Chatbox() {
           </div>
         </div>
       </div>
+      <Footer />
 
     </>
   );

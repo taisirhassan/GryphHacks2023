@@ -1,6 +1,8 @@
 import './Documents.css';
 import React, { useState } from "react";
 import { Container, Row, Col, Button, Form, Card } from "react-bootstrap";
+import Navbar from "../Layout/Navbar";
+import Footer from "../Layout/Footer";
 
 
 function Documents() {
@@ -28,7 +30,7 @@ function Documents() {
   };
   return (
     <>
-
+      <Navbar />
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
       <div className="card chat-app">
@@ -157,6 +159,8 @@ function Documents() {
           <br />
         </div>
       </div>
+      <Footer />
+
     </>
   );
 }

@@ -1,6 +1,8 @@
 import React,  { useState } from 'react';
 import './Videos.css';
 import { Container, Row, Col, Button, Form, Card } from "react-bootstrap";
+import Navbar from "../Layout/Navbar";
+import Footer from "../Layout/Footer";
 
 function Videos() {
   const [videoFile, setVideoFile] = useState(null);
@@ -32,6 +34,7 @@ function Videos() {
   };
   return (
     <>
+      <Navbar />
 
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
@@ -192,7 +195,8 @@ function Videos() {
           <br/>
         </div>
       </div>
-      
+      <Footer />
+
 
     </>
   );

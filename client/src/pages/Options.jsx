@@ -2,11 +2,14 @@ import React from 'react';
 import './Options.css';
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Navbar from "../Layout/Navbar";
+import Footer from "../Layout/Footer";
 
 
 function Options() {
   return (
     <>
+      <Navbar />
 
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
@@ -92,6 +95,7 @@ function Options() {
           <br/>
         </div>
       </div>
+      <Footer />
 
     </>
   );
