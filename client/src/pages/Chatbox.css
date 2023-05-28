@@ -25,6 +25,7 @@ body {
   background: #fff;
   transition: .5s;
   border: 0;
+  margin-top:100px;
   margin-bottom: 30px;
   border-radius: .55rem;
   position: relative;
@@ -38,7 +39,7 @@ body {
 
 
 .chat-app .people-list {
-  width: 280px;
+  width: 100px;
   position: absolute;
   left: 0;
   top: 0;
@@ -231,6 +232,7 @@ body {
   visibility: hidden;
   display: block;
   font-size: 0;
+  width:20%;
   content: " ";
   clear: both;
   height: 0
