@@ -49,7 +49,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <a className="btn btn-primary shadow" role="button" href="/chatbox">
+            <a className="btn btn-primary shadow" role="button" href="/options">
               Use Now!
             </a>
           </div>

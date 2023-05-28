@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Chatbox from "./pages/Chatbox";
 import Options from "./pages/Options";
 import Documents from "./pages/Documents";
-import Videos from "./pages/Video";
+import Videos from "./pages/Videos";
 
 function App() {
   return (
