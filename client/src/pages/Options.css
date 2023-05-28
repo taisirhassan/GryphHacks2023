@@ -303,6 +303,9 @@ body {
   display: flex;
   justify-content: flex-end;
   position: absolute;
-  right: 20px;
-  top: 20px;
+
+
+}
+.logo {
+  width: 100px;
 }
