@@ -33,7 +33,7 @@ function Options() {
           </div>
 
           <ul className="list-unstyled chat-list mt-2 mb-0">
-            <li className="clearfix">
+            <li className="clearfix" style={{ width: '600px' }}>
               <img
                 src="https://th.bing.com/th/id/OIP.1hX8tUyNC8XTZ8u6BLuGEAHaHa?pid=ImgDet&rs=1"
                 alt="avatar"
@@ -47,7 +47,7 @@ function Options() {
               </div>
             </li>
 
-            <li className="clearfix active">
+            <li className="clearfix active" style={{ width: '600px' }}>
               <img
                 src="https://th.bing.com/th/id/OIP.cYFSITHDuw6eXv-8Z8AOTQHaHa?pid=ImgDet&rs=1"
                 alt="avatar"

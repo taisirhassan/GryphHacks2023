@@ -18,7 +18,7 @@ function Chatbox() {
 
           <ul className="list-unstyled chat-list mt-2 mb-0">
 
-            <li className="clearfix">
+            <li className="clearfix" style={{ width: '600px' }}>
               <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="avatar" />
               <div className="about">
                 <div className="name">Video</div>
@@ -26,7 +26,7 @@ function Chatbox() {
               </div>
             </li>
 
-            <li className="clearfix active">
+            <li className="clearfix active" style={{ width: '600px' }}>
               <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="avatar" />
               <div className="about">
                 <div className="name">Document</div>
