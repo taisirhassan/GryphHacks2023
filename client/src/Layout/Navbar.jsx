@@ -5,7 +5,7 @@ import logoImage from '../assets/img/logo.png';
 const Navbar = () => {
   return (
    <>
-    <nav className="navbar navbar-light bg-white navbar-expand-md fixed-top navbar-shrink py-4" id="mainNav">
+    <nav className="navbar navbar-light bg-white navbar-expand-md fixed-top navbar-shrink py-1" id="mainNav">
     <div className="container-md"><a className="navbar-brand d-flex align-items-center" href="/">
     <img className='image-fluid' src={logoImage} width="40%" height="40%" />
     </a>
