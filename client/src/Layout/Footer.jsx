@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="row row-cols-2 row-cols-md-4">
         <div className="col-10 col-md-3">
           <div className="fw-bold d-flex align-items-center mb-2">
-    <img className='image-fluid' width="60%" height="60%" src={logoImage} />
+    <img className='image-fluid' width="20%" height="20%" src={logoImage} />
           </div>
           <p className="text-muted">we are passionate about making information more accessible and empowering individuals to discover knowledge effortlessly. </p>
         </div>
