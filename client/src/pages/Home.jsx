@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './Home.css'
 import Navbar from '../Layout/Navbar'
 import Footer from '../Layout/Footer'
-import heroImage from '../assets/img/hero.png';
+import heroImage from '../assets/img/hero.webp';
 
 function Home() {
 
@@ -17,10 +17,10 @@ function Home() {
             <h1 className="display-4 fw-bold mb-5">The AI-powered PDF and Video
 &nbsp;<span className="underline">Summarizer</span>.</h1>
             <p className="fs-5 text-muted mb-5">Save Time, Get Informed: Instant PDF and Video Summaries at Your Fingertips.</p>
-            <form className="d-flex justify-content-start align-items-center flex-wrap" method="post">
-              <div className="shadow-lg mb-3"><input className="form-control" type="email" name="email" placeholder="Your Email" /></div>
-              <div className="shadow-lg mb-3"><button className="btn btn-primary" type="submit">Subscribe </button></div>
-            </form>
+            {/* <form className="d-flex justify-content-start align-items-center flex-wrap" method="post"> */}
+              {/* <div className="shadow-lg mb-3"><input className="form-control" type="email" name="email" placeholder="Your Email" /></div> */}
+              <div className="d-flex justify-content-start align-items-center flex-wrap mb-3"><button className="btn btn-primary btn-lg">Sign In</button></div>
+            {/* </form> */}
           </div>
         </div>
         <div className="col-12 col-lg-6 mx-auto">
@@ -156,7 +156,7 @@ function Home() {
             <div className="text-white p-4 p-md-5">
               <h2 className="fw-bold text-white mb-3">Experience the Power of Summarization</h2>
               <p className="mb-4">Ready to save time and enhance your information consumption? Experience the power of our PDF and video summarizer and transform the way you digest content. Simplify complex texts, extract key points, and gain valuable insights in minutes.</p>
-              <div className="my-3"><a className="btn btn-warning me-2 mt-2" role="button" href="#">Get Started Now</a></div>
+              <div className="my-3"><a className="btn btn-warning me-2 mt-2" role="button" href="">Get Started Now</a></div>
             </div>
           </div>
           <div className="col-md-6 order-first order-md-last" style={{minHeight: 250}}><img className="w-100 h-100 fit-contain pt-5 pt-md-0" src={require("../assets/img/illustrations/web-development.svg").default} /></div>
@@ -206,14 +206,14 @@ function Home() {
       </div>
     </div>
   </section>
-  <section className="py-4 py-xl-5" id='contact'>
+  <section className="py-4 py-xl-5" id='signUp'>
     <div className="container-md">
       <div className="text-white bg-primary border rounded border-0 border-primary d-flex flex-column justify-content-between flex-lg-row p-4 p-md-5">
         <div className="pb-2 pb-lg-1">
-          <h2 className="fw-bold text-warning mb-2">Get in Touch: Reach Out to Our Team</h2>
-          <p className="mb-0">Reach Out to Us for Expert Support and Personalized Assistance—We're Committed to Providing Exceptional Service.</p>
+          <h2 className="fw-bold text-warning mb-2">Get access to our features now!</h2>
+          <p className="mb-0">Have the option to choose between features and interact with our AI powered chatbox!</p>
         </div>
-        <div className="my-2"><a className="btn btn-light fs-5 py-2 px-4" role="button" href="contacts.html">Contact us</a></div>
+        <div className="my-2"><a className="btn btn-light fs-5 py-2 px-4" role="button" href="#">Sign Up</a></div>
       </div>
     </div>
   </section>
