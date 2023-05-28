@@ -28,7 +28,7 @@ function Home() {
                 {/* <form className="d-flex justify-content-start align-items-center flex-wrap" method="post"> */}
                 {/* <div className="shadow-lg mb-3"><input className="form-control" type="email" name="email" placeholder="Your Email" /></div> */}
                 <div className="d-flex justify-content-start align-items-center flex-wrap mb-3">
-                  <Link to="/chatbox">
+                  <Link to="/options">
                     <button className="btn btn-primary btn-lg">Use Now!</button>
                   </Link>
                 </div>
@@ -459,7 +459,7 @@ function Home() {
               <a
                 className="btn btn-light fs-5 py-2 px-4"
                 role="button"
-                href="/chatbox"
+                href="/options"
               >
                 Sign Up
               </a>
